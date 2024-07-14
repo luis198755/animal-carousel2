@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* src/index.css o src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.light {
+  @apply bg-gray-100 text-gray-900;
+}
+
+body.dark {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-200;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-400;
+}
+
+/* Añade más clases según sea necesario para otros componentes */

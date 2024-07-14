@@ -1,6 +1,8 @@
 // src/components/App.js
 import React from 'react';
 import AnimalCarousel from './AnimalCarousel';
+import { ThemeProvider } from './ThemeProvider';
+
 
 const App = () => {
   const animalData = [
@@ -45,14 +47,23 @@ const App = () => {
       description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
       category: "Mamífero",
       endangered: true 
+    },
+    {
+      imageUrl: "/images/manta.webp",
+      name: "Tigre de Bengala",
+      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
+      category: "Mamífero",
+      endangered: true 
     }
   ];
 
   return (
-    <div className="app h-screen overflow-hidden">
-      {/* <h1 className="text-3xl font-bold text-center py-4 bg-blue-500 text-white">Carrusel de Animales</h1> */}
-      <AnimalCarousel animals={animalData} />
-    </div>
+    <ThemeProvider>
+      <div className="app">
+        {/* <h1 className="text-3xl font-bold text-center py-4 bg-blue-500 text-white">Carrusel de Animales</h1> */}
+        <AnimalCarousel animals={animalData} />
+      </div>
+    </ThemeProvider>
   );
 };
 
