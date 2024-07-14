@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className="app h-screen overflow-hidden">
-      <h1 className="text-3xl font-bold text-center py-4 bg-blue-500 text-white">Carrusel de Animales</h1>
+      {/* <h1 className="text-3xl font-bold text-center py-4 bg-blue-500 text-white">Carrusel de Animales</h1> */}
       <AnimalCarousel animals={animalData} />
     </div>
   );
