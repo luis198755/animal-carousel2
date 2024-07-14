@@ -15,9 +15,9 @@ const AnimalCard = ({ imageUrl, name, description, category, endangered }) => {
           alt={name}
         />
         {endangered && (
-          <Badge variant="destructive" className="absolute top-2 right-2">
-            En peligro
-          </Badge>
+          <div className="absolute top-2 right-2 bg-red-600 text-white px-1 py-0 rounded shadow-lg border-2 border-white">
+            <span className="font-bold text-sm">En peligro</span>
+          </div>
         )}
       </div>
       <CardContent className="p-4 flex-grow flex flex-col overflow-auto">
@@ -25,8 +25,8 @@ const AnimalCard = ({ imageUrl, name, description, category, endangered }) => {
           <h2 className="text-xl font-bold text-gray-800 truncate">{name}</h2>
           <Badge variant="outline">{category}</Badge>
         </div>
-        <p className="text-gray-600 mb-4 overflow-y-auto flex-grow">{description}</p>
-        <div className="flex justify-between items-center mt-auto pt-2">
+        <p className="text-gray-600 mb-8 overflow-y-auto flex-grow">{description}</p>
+        <div className="flex justify-between items-center mt-auto pt-4">
           <Button variant="outline" size="sm" className="flex items-center">
             <Info className="w-4 h-4 mr-2" />
             Más info

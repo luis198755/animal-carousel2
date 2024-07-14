@@ -84,13 +84,13 @@ const AnimalCarousel = ({ animals }) => {
       
       <Button
         variant="outline"
-        className="absolute bottom-4 left-4 bg-white bg-opacity-50 hover:bg-opacity-75"
+        className="absolute bottom-16 left-4 bg-white bg-opacity-50 hover:bg-opacity-75"
         onClick={toggleAutoPlay}
       >
         {isAutoPlaying ? <Pause className="h-6 w-6" /> : <Play className="h-6 w-6" />}
       </Button>
       
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      {/* <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 flex space-x-4">
         {animals.map((_, index) => (
           <button
             key={index}
@@ -100,7 +100,7 @@ const AnimalCarousel = ({ animals }) => {
             onClick={() => setCurrentIndex(index)}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
