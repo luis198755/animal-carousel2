@@ -52,16 +52,18 @@ const AnimalCarousel = ({ animals }) => {
   };
 
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-gray-100">
-      <div 
-        className="flex transition-transform duration-300 ease-in-out h-full"
-        style={{ transform: `translateX(-${100}%)` }}
-      >
-        {getOrderedAnimals().map((animal, index) => (
-          <div key={index} className="w-full h-full flex-shrink-0 flex items-center justify-center p-4">
-            <AnimalCard {...animal} />
-          </div>
-        ))}
+    <div className="relative w-full h-screen overflow-hidden bg-gray-100 flex flex-col">
+      <div className="flex-grow overflow-hidden">
+        <div 
+          className="flex transition-transform duration-300 ease-in-out h-full"
+          style={{ transform: `translateX(-${100}%)` }}
+        >
+          {getOrderedAnimals().map((animal, index) => (
+            <div key={index} className="w-full h-full flex-shrink-0 flex items-center justify-center p-4">
+              <AnimalCard {...animal} />
+            </div>
+          ))}
+        </div>
       </div>
       
       <Button 

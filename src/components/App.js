@@ -7,7 +7,7 @@ const App = () => {
     {
       imageUrl: "/images/lion2.webp",
       name: "León",
-      description: 'El león (Panthera leo) es n se describen algunas de sus características principales: El león (Panthera leo) es un mamífero de la familia de los félidos y una de las cinco especies del género Panthera. Los leones son conocidos como "el rey de la selva" debido a su apariencia majestuosa y su papel como depredadores alfa en su hábitat. A continuación se describen algunas de sus características principales:',
+      description: 'El león (Panthera El león (Panthera leo) es n se describen alguna El león (Panthera leo) es n se describen alguna El león (Panthera leo) es n se describen alguna leo) es n se describen alguna El león (Panthera leo) es n se describen alguna s de sus características principales: El león (Panthera leo) es un mamífero de la familia de los félidos y una de las cinco especies del género Panthera. Los leones son conocidos como "el rey de la selva" debido a su apariencia majestuosa y su papel como depredadores alfa en su hábitat. A continuación se describen algunas de sus características principales:',
       category: "Mamífero",
       endangered: true
     },
