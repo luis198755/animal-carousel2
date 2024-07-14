@@ -12,110 +12,35 @@ const App = () => {
       endangered: true
     },
     {
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: "/images/dolfin.webp",
       name: "Elefante",
       description: "El elefante es el mamífero terrestre más grande y es conocido por su inteligencia. Tienen una memoria excelente y son capaces de mostrar una amplia gama de emociones. Los elefantes son animales sociales que viven en manadas lideradas por una matriarca.",
       category: "Mamífero",
       endangered: false
     },
     {
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: "/images/eagle.webp",
       name: "Pingüino",
       description: "Los pingüinos son aves marinas no voladoras que viven principalmente en el hemisferio sur. Son excelentes nadadores y pueden bucear a grandes profundidades en busca de alimento. A pesar de su apariencia torpe en tierra, son ágiles y rápidos en el agua.",
       category: "Ave",
       endangered: false
     },
     {
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: "/images/pin2.webp",
       name: "Tigre de Bengala",
       description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
       category: "Mamífero",
       endangered: true 
     },
     {
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: "/images/rape.webp",
       name: "Tigre de Bengala",
       description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
       category: "Mamífero",
       endangered: true 
     },
     {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    }, {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    }, {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
-      name: "Tigre de Bengala",
-      description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
-      category: "Mamífero",
-      endangered: true 
-    },
-    {
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: "/images/tib.webp",
       name: "Tigre de Bengala",
       description: "El tigre Bengala es una cuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmentEl tigre de Bengala es una subespecie de tigre que se encuentra principalmente en la India y Bangladesh. Es uno de los felinos más grandes del mundo y un depredador ápice en su ecosistema. Lamentablemente, está en peligro de extinción debido a la pérdida de hábitat y la caza furtiva aaaaaaaaaaaaaaaaade aaaaaaaaaaaaaaaaade.",
       category: "Mamífero",
